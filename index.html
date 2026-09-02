@@ -95,8 +95,8 @@
       class="home-hero"
       aria-labelledby="home-hero-title"
     >
-        <div class="home-hero__layout">
-          <div class="home-hero__content">
+      <div class="container home-hero__layout">
+        <div class="home-hero__content">
             <p class="home-hero__eyebrow">
               Digitale Zahnmedizin. Klinisch gedacht.
             </p>
@@ -131,16 +131,28 @@
             </div>
           </div>
 
-          <div class="home-hero__visual" aria-hidden="true">
-            <img
-              class="home-hero__griffin"
-              src="./assets/images/clearvision-griffin.png"
-              width="1920"
-              height="1080"
-              alt=""
-            >
-          </div>
+        <div class="home-hero__visual" aria-hidden="true">
+          <video
+            class="home-hero__video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="none"
+            data-src="assets/video/griffin-hero-web-crf39.webm"
+            aria-hidden="true"
+            poster="assets/images/griffin-hero-poster.webp"
+          ></video>
+
+          <img
+            class="home-hero__poster"
+            src="assets/images/griffin-hero-poster.webp"
+            width="1280"
+            height="720"
+            alt=""
+          >
         </div>
+      </div>
     </section>
   </main>
 
@@ -249,5 +261,54 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    (() => {
+      const heroVideo = document.querySelector(".home-hero__video");
+
+      if (!heroVideo) {
+        return;
+      }
+
+      const desktopViewport = window.matchMedia("(min-width: 768px)");
+      const motionAllowed = window.matchMedia(
+        "(prefers-reduced-motion: no-preference)"
+      );
+
+      const loadHeroVideo = () => {
+        if (
+          !desktopViewport.matches ||
+          !motionAllowed.matches ||
+          heroVideo.currentSrc
+        ) {
+          return;
+        }
+
+        heroVideo.src = heroVideo.dataset.src;
+        heroVideo.load();
+
+        const playback = heroVideo.play();
+
+        if (playback) {
+          playback.catch(() => {});
+        }
+      };
+
+      const deferVideoLoad = () => {
+        if ("requestIdleCallback" in window) {
+          window.requestIdleCallback(loadHeroVideo, { timeout: 1500 });
+          return;
+        }
+
+        window.setTimeout(loadHeroVideo, 0);
+      };
+
+      if (document.readyState === "complete") {
+        deferVideoLoad();
+      } else {
+        window.addEventListener("load", deferVideoLoad, { once: true });
+      }
+    })();
+  </script>
 </body>
 </html>

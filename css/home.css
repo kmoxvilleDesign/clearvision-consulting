@@ -18,6 +18,13 @@
   );
 
   overflow: hidden;
+
+  background: linear-gradient(
+    100deg,
+    #2A2A2C 0%,
+    #1F2024 46%,
+    #111216 100%
+  );
 }
 
 .home-hero__layout {
@@ -25,15 +32,15 @@
 
   display: grid;
   grid-template-columns:
-    minmax(0, 3fr)
-    minmax(0, 5fr);
-
-  grid-template-areas:
-    "visual content";
+    minmax(0, 11fr)
+    minmax(0, 9fr);
+  gap: clamp(
+    2rem,
+    calc(1rem + 2vw),
+    4rem
+  );
 
   min-height: inherit;
-
-  background: var(--color-surface);
 }
 
 /* ==========================================================
@@ -41,39 +48,57 @@
    ========================================================== */
 
 .home-hero__visual {
-  grid-area: visual;
-
   display: flex;
   align-items: center;
   justify-content: center;
 
   width: 100%;
   min-width: 0;
-  padding: clamp(
+  padding-block: clamp(
     2rem,
-    calc(1rem + 3vw),
-    4rem
+    calc(1rem + 2vw),
+    3rem
   );
   overflow: hidden;
 
-  background: #34363a;
   pointer-events: none;
 }
 
-.home-hero__griffin {
+.home-hero__video {
   display: block;
   flex-shrink: 0;
 
-  width: auto;
-  height: clamp(
-    28rem,
-    60svh,
-    40rem
+  width: clamp(
+    38rem,
+    44vw,
+    42rem
   );
   max-width: none;
+  height: auto;
   object-fit: contain;
-  filter: drop-shadow(
-    0 1.25rem 2.5rem rgb(0 0 0 / 0.45)
+
+  transform:
+    translateX(clamp(0.5rem, 1vw, 1rem))
+    scale(1.4);
+  transform-origin: center center;
+}
+
+.home-hero__poster {
+  display: none;
+
+  flex-shrink: 0;
+
+  width: clamp(
+    48rem,
+    62vw,
+    56rem
+  );
+  max-width: none;
+  height: auto;
+  object-fit: contain;
+
+  transform: translateX(
+    clamp(0.5rem, 1vw, 1rem)
   );
 }
 
@@ -82,10 +107,9 @@
    ========================================================== */
 
 .home-hero__content {
-  grid-area: content;
-
   display: grid;
-  align-content: start;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: center;
   justify-items: start;
 
   gap: clamp(
@@ -95,24 +119,22 @@
   );
 
   min-width: 0;
-  min-height: 100vh;
 
   padding-block: clamp(
-    5rem,
-    calc(3rem + 4vw),
-    8rem
-  );
-
-  padding-inline: clamp(
-    3rem,
-    calc(1.5rem + 4vw),
+    4rem,
+    calc(2.5rem + 4vw),
     7rem
   );
+}
 
-  background: var(--color-surface-right);
+.home-hero__content > * {
+  min-width: 0;
 }
 
 .home-hero__eyebrow {
+  width: 100%;
+  max-width: 100%;
+
   color: var(--color-gold);
 
   font-size: var(--text-small);
@@ -124,6 +146,7 @@
 }
 
 .home-hero__title {
+  width: 100%;
   max-width: 17ch;
 
   color: var(--color-text);
@@ -142,7 +165,8 @@
 }
 
 .home-hero__text {
-  max-width: 38rem;
+  width: 100%;
+  max-width: min(38rem, 100%);
 
   color: var(--color-text-secondary);
 
@@ -155,6 +179,8 @@
   flex-wrap: wrap;
   align-items: center;
 
+  width: 100%;
+  max-width: 100%;
   gap: 1em 1.75em;
   padding-top: 2rem;
 }
@@ -175,47 +201,67 @@
 
   .home-hero__layout {
     grid-template-columns: minmax(0, 1fr);
-
-    grid-template-areas:
-      "content"
-      "visual";
+    gap: 0;
   }
 
   .home-hero__content {
-    padding-block: clamp(
+    padding-top: clamp(
       4rem,
       calc(2rem + 6vw),
       6rem
     );
-
-    padding-inline: var(--page-padding);
+    padding-bottom: clamp(
+      2.5rem,
+      calc(2rem + 2vw),
+      3.5rem
+    );
   }
 
   .home-hero__visual {
-    min-height: clamp(
-      16rem,
-      calc(10rem + 25vw),
-      24rem
+    padding-block: 0 clamp(
+      2.5rem,
+      calc(1.5rem + 4vw),
+      4.5rem
     );
   }
 
-  .home-hero__griffin {
-    height: clamp(
-      20rem,
-      42svh,
-      30rem
-    );
-    max-width: 78%;
+  .home-hero__video {
+    width: min(68vw, 24rem);
+    transform: translateX(0.5rem) scale(1.2);
+  }
+
+  .home-hero__poster {
+    width: min(100vw, 40rem);
+    transform: none;
   }
 }
 
 @media (max-width: 42em) {
   .home-hero__title {
-    max-width: 12ch;
+    max-width: min(12ch, 100%);
   }
 
   .home-hero__actions {
     flex-direction: row;
     align-items: center;
+  }
+
+  .home-hero__video {
+    width: min(72vw, 20rem);
+    transform: none;
+  }
+
+  .home-hero__poster {
+    width: min(145vw, 34rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero__video {
+    display: none;
+  }
+
+  .home-hero__poster {
+    display: block;
   }
 }
