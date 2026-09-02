@@ -8,32 +8,35 @@
 
 .services-intro {
   padding-block: clamp(
-    5rem,
-    calc(3rem + 5vw),
-    9rem
+    4rem,
+    calc(2.5rem + 4vw),
+    7rem
   );
 
   border-bottom: 0.0625rem solid var(--color-border);
-  background: var(--color-surface-right);
+  background: linear-gradient(
+    100deg,
+    #2A2A2C 0%,
+    #1F2024 46%,
+    #111216 100%
+  );
 }
 
 .services-intro__layout {
   display: grid;
   grid-template-columns:
-    minmax(0, 3fr)
-    minmax(0, 5fr);
+    minmax(0, 11fr)
+    minmax(0, 9fr);
 
   gap: clamp(
     2rem,
-    calc(1rem + 4vw),
-    6rem
+    calc(1rem + 2vw),
+    4rem
   );
-  align-items: start;
+  align-items: center;
 }
 
 .services-intro__eyebrow {
-  padding-top: 0.5em;
-
   color: var(--color-gold);
 
   font-size: var(--text-small);
@@ -50,9 +53,11 @@
     calc(0.75rem + 1vw),
     2rem
   );
+  min-width: 0;
 }
 
 .services-intro__title {
+  width: 100%;
   max-width: 17ch;
 
   color: var(--color-text);
@@ -70,7 +75,8 @@
 }
 
 .services-intro__text {
-  max-width: 42rem;
+  width: 100%;
+  max-width: min(42rem, 100%);
 
   color: var(--color-text-secondary);
 
@@ -83,24 +89,23 @@
    ========================================================== */
 
 .services-index {
-  margin-top: clamp(
-    3rem,
-    calc(2rem + 3vw),
-    5rem
-  );
+  justify-self: end;
+
+  width: 100%;
+  max-width: 30rem;
 
   border-block: 0.0625rem solid var(--color-border);
 }
 
 .services-index__list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr);
 
   list-style: none;
 }
 
 .services-index__item + .services-index__item {
-  border-left: 0.0625rem solid var(--color-border);
+  border-top: 0.0625rem solid var(--color-border);
 }
 
 .services-index__link {
@@ -109,8 +114,9 @@
   align-items: baseline;
 
   gap: 1em;
+  min-width: 0;
   min-height: 100%;
-  padding: 1.5em;
+  padding-block: 1.5em;
 
   color: var(--color-text-secondary);
 
@@ -119,9 +125,7 @@
   line-height: 1.4;
   text-decoration: none;
 
-  transition:
-    color var(--transition-default),
-    background-color var(--transition-default);
+  transition: color var(--transition-default);
 }
 
 .services-index__number {
@@ -132,7 +136,6 @@
 .services-index__link:hover,
 .services-index__link:focus-visible {
   color: var(--color-text);
-  background-color: rgb(244 241 234 / 0.035);
 }
 
 /* ==========================================================
@@ -162,6 +165,10 @@
 
 .service-entry:last-child {
   border-bottom: 0.0625rem solid var(--color-border);
+}
+
+.service-entry:first-child {
+  border-top: 0;
 }
 
 .service-entry__number {
@@ -327,11 +334,21 @@
   }
 
   .services-intro__layout {
-    gap: 1.5rem;
+    gap: clamp(
+      2.5rem,
+      calc(2rem + 3vw),
+      4rem
+    );
   }
 
   .services-intro__eyebrow {
     padding-top: 0;
+  }
+
+  .services-index {
+    justify-self: stretch;
+
+    max-width: none;
   }
 
   .services-index__list {
