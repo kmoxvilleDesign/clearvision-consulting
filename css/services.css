@@ -37,7 +37,7 @@
 }
 
 .services-intro__eyebrow {
-  color: var(--color-gold);
+  color: var(--color-gold-light);
 
   font-size: var(--text-small);
   font-weight: 600;
@@ -214,7 +214,7 @@
 .service-entry__detail {
   display: grid;
   grid-template-columns:
-    minmax(7rem, 1fr)
+    minmax(9.5rem, 1fr)
     minmax(0, 2.25fr);
 
   gap: 1.5em;

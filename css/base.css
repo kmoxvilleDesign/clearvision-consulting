@@ -124,3 +124,13 @@ button {
   outline: 0.125rem solid var(--focus-color);
   outline-offset: 0.25rem;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .skip-link {
+    transition: none;
+  }
+}

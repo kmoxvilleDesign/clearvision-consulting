@@ -355,3 +355,36 @@
     );
   }
 }
+
+@media (max-width: 22em) {
+  .site-header .container {
+    padding-inline: 0.75rem;
+  }
+
+  .site-nav__list {
+    gap: 0.25em;
+  }
+
+  .site-nav__link {
+    white-space: nowrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition:
+      color var(--transition-default),
+      background-color var(--transition-default),
+      border-color var(--transition-default);
+  }
+
+  .button:hover,
+  .text-link:hover::after,
+  .text-link:focus-visible::after {
+    transform: none;
+  }
+
+  .text-link::after {
+    transition: none;
+  }
+}

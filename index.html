@@ -14,6 +14,10 @@
 
   <title>ClearVision Consulting</title>
 
+  <link rel="icon" href="./favicon.ico" sizes="any">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/home.css">
 </head>
@@ -131,7 +135,7 @@
             </div>
           </div>
 
-        <div class="home-hero__visual" aria-hidden="true">
+        <div class="home-hero__visual">
           <video
             class="home-hero__video"
             autoplay
@@ -151,6 +155,14 @@
             height="720"
             alt=""
           >
+
+          <button
+            class="home-hero__toggle"
+            type="button"
+            aria-label="Animation pausieren"
+            title="Animation pausieren"
+            hidden
+          ></button>
         </div>
       </div>
     </section>
@@ -265,8 +277,9 @@
   <script>
     (() => {
       const heroVideo = document.querySelector(".home-hero__video");
+      const videoToggle = document.querySelector(".home-hero__toggle");
 
-      if (!heroVideo) {
+      if (!heroVideo || !videoToggle) {
         return;
       }
 
@@ -274,34 +287,91 @@
       const motionAllowed = window.matchMedia(
         "(prefers-reduced-motion: no-preference)"
       );
+      let videoLoadReady = false;
+      let videoPausedByUser = false;
+
+      const syncVideoToggle = () => {
+        const label = heroVideo.paused
+          ? "Animation fortsetzen"
+          : "Animation pausieren";
+
+        videoToggle.hidden = !heroVideo.currentSrc ||
+          !desktopViewport.matches || !motionAllowed.matches ||
+          Boolean(heroVideo.error);
+        videoToggle.dataset.paused = String(heroVideo.paused);
+        videoToggle.setAttribute("aria-label", label);
+        videoToggle.title = label;
+      };
+
+      videoToggle.addEventListener("click", () => {
+        if (!desktopViewport.matches || !motionAllowed.matches) {
+          return;
+        }
+
+        if (heroVideo.paused) {
+          videoPausedByUser = false;
+          heroVideo.play().catch(syncVideoToggle);
+        } else {
+          videoPausedByUser = true;
+          heroVideo.pause();
+        }
+      });
+
+      ["loadeddata", "play", "pause", "error"].forEach((event) => {
+        heroVideo.addEventListener(event, syncVideoToggle);
+      });
 
       const loadHeroVideo = () => {
         if (
+          !videoLoadReady ||
           !desktopViewport.matches ||
-          !motionAllowed.matches ||
-          heroVideo.currentSrc
+          !motionAllowed.matches
         ) {
           return;
         }
 
-        heroVideo.src = heroVideo.dataset.src;
-        heroVideo.load();
-
-        const playback = heroVideo.play();
-
-        if (playback) {
-          playback.catch(() => {});
+        if (!heroVideo.getAttribute("src")) {
+          heroVideo.src = heroVideo.dataset.src;
+          heroVideo.load();
         }
+
+        if (!videoPausedByUser) {
+          const playback = heroVideo.play();
+
+          if (playback) {
+            playback.catch(syncVideoToggle);
+          }
+        }
+
+        syncVideoToggle();
       };
 
       const deferVideoLoad = () => {
+        const startVideo = () => {
+          videoLoadReady = true;
+          loadHeroVideo();
+        };
+
         if ("requestIdleCallback" in window) {
-          window.requestIdleCallback(loadHeroVideo, { timeout: 1500 });
+          window.requestIdleCallback(startVideo, { timeout: 1500 });
           return;
         }
 
-        window.setTimeout(loadHeroVideo, 0);
+        window.setTimeout(startVideo, 0);
       };
+
+      const handleVideoMediaChange = () => {
+        if (!desktopViewport.matches || !motionAllowed.matches) {
+          heroVideo.pause();
+        } else if (videoLoadReady) {
+          deferVideoLoad();
+        }
+
+        syncVideoToggle();
+      };
+
+      desktopViewport.addEventListener("change", handleVideoMediaChange);
+      motionAllowed.addEventListener("change", handleVideoMediaChange);
 
       if (document.readyState === "complete") {
         deferVideoLoad();

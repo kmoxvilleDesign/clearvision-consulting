@@ -168,3 +168,11 @@
     );
   }
 }
+
+@media (max-width: 24em) {
+  .legal-intro__title {
+    min-width: 0;
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+}
