@@ -129,7 +129,7 @@
 }
 
 .services-index__number {
-  color: var(--color-gold);
+  color: var(--color-gold-light);
   letter-spacing: 0.08em;
 }
 

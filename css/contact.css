@@ -113,7 +113,7 @@
 
   border-top: 0.0625rem solid var(--color-border);
 
-  color: var(--color-text-muted);
+  color: var(--color-text-secondary);
 
   font-size: var(--text-small);
   letter-spacing: 0.04em;
@@ -132,7 +132,7 @@
 }
 
 .contact-booking__title {
-  color: var(--color-gold);
+  color: var(--color-gold-light);
 
   font-size: var(--text-small);
   font-weight: 600;

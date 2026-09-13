@@ -302,9 +302,14 @@
   }
 }
 
-@media (max-width: 24em) {
+@media (max-width: 28em) {
   .home-hero__title {
-    font-size: clamp(2.375rem, calc(15.625vw - 0.75rem), 3rem);
+    max-width: 100%;
+    font-size: clamp(
+      2.125rem,
+      calc((100vw - 2 * var(--page-padding)) / 8.3),
+      3rem
+    );
   }
 }
 

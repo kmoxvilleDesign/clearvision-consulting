@@ -191,6 +191,55 @@
 }
 
 /* ==========================================================
+   Career stations
+   ========================================================== */
+
+.about-stations {
+  display: grid;
+  gap: clamp(2rem, calc(1.5rem + 2vw), 3rem);
+}
+
+.about-stations__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2em clamp(2rem, calc(1rem + 4vw), 6rem);
+
+  list-style: none;
+}
+
+.about-stations__item {
+  display: grid;
+  align-content: start;
+  gap: 1em;
+
+  min-width: 0;
+  padding-top: 1.5em;
+  border-top: 0.0625rem solid var(--color-border);
+}
+
+.about-stations__number {
+  color: var(--color-gold);
+  font-size: var(--text-small);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+}
+
+.about-stations__title {
+  color: var(--color-text);
+  font-size: var(--text-lead);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
+}
+
+.about-stations__text {
+  max-width: 52ch;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+/* ==========================================================
    Working principles
    ========================================================== */
 
@@ -272,6 +321,10 @@
 }
 
 @media (max-width: 42em) {
+  .about-stations__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .about-intro__title {
     max-width: min(12ch, 100%);
   }

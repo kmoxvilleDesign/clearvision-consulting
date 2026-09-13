@@ -12,21 +12,23 @@ Do not treat this file as permission to invent additional claims.
 
 **Name:** ClearVision Consulting
 
-ClearVision Consulting is an independent consulting business focused on digital dentistry, aligner treatment workflows, clinical treatment planning, mentoring, and practice implementation.
+ClearVision Consulting is an independent clinical consulting and continuing education business focused on aligner therapy, clinical case assessment, aligner biomechanics, digital treatment planning, critical review of digital setups / ClinChecks, troubleshooting, complex cases, and the development of treating clinicians' own planning competence.
 
-The business is based in Switzerland and works primarily with dentists, orthodontists, dental practices, and their teams.
+The business is based in Switzerland and is operated solely by Martin Kesel as a sole proprietor. Its primary audience is treating dentists and orthodontists.
 
-Much of the work can be delivered remotely. In-office training and implementation support are also part of the service model.
+Much of the work can be delivered remotely. Individually prepared clinical training in the clinician's practice is also part of the service model. Several treating dentists or orthodontists from the same practice may participate together.
+
+ClearVision does not provide general practice management, internal process optimisation, or team onboarding. Non-clinical practice staff, such as dental assistants or prophylaxis staff, are not the primary training audience.
 
 ## Founder
 
 **Founder:** Martin Kesel
 
-Martin has a professional background in digital dentistry and aligner treatment.
+Martin has around two decades of experience in the dental sector, with a particular focus on digital dentistry and aligner therapy.
 
-Relevant background includes clinical work at Align Technology, with experience around digital treatment-planning workflows such as ClinCheck and Smile Architect.
+Relevant background includes technical support at Straumann and clinical work at Align Technology as a Clinical Specialist, with experience in aligner therapy and digital treatment planning, including ClinCheck and Smile Architect.
 
-This background creates a practical bridge between clinical decision-making, digital treatment planning, software-supported workflows, implementation in everyday dental practice, and communication between clinicians, teams, and digital systems.
+This background connects dental technology, biomechanics, clinical decision-making, digital treatment planning, and clinical continuing education. The focus is on helping treating clinicians assess cases and digital setups critically and develop their own ability to make independent planning decisions.
 
 The website should present this background confidently but factually.
 
@@ -38,7 +40,7 @@ ClearVision Consulting should not feel like a generic dental agency or software 
 
 The positioning is:
 
-**Clinical thinking + digital workflow expertise + practical implementation.**
+**Clinical thinking + aligner biomechanics + digital treatment-planning expertise + individual clinical education.**
 
 The brand should communicate precision, clarity, structure, clinical understanding, independence, premium personal support, and practical relevance.
 
@@ -51,15 +53,16 @@ Related positioning language:
 - Digitale Zahnmedizin. Klinisch gedacht.
 - Präzision für digitale Workflows in der Zahnmedizin.
 
+Where existing brand language refers to digital workflows, the intended meaning is clinical aligner assessment and treatment planning, not general practice organisation or internal process consulting.
+
 ## Audience
 
 Primary audiences:
 
-1. Dentists using or introducing aligner treatment.
-2. Orthodontists looking for additional treatment-planning or workflow support.
-3. Practices that want to improve digital aligner workflows.
-4. Practice teams that need structured onboarding and practical implementation support.
-5. Experienced users who want a high-level clinical sparring partner for more complex cases.
+1. Dentists offering or introducing aligner therapy.
+2. Orthodontists seeking clinical sparring or treatment-planning support.
+3. Experienced aligner clinicians who want to deepen their knowledge of biomechanics, case assessment, and digital planning.
+4. Treating clinicians who want to develop their ability to assess and plan aligner cases independently.
 
 The audience is professional and medically trained. Avoid oversimplified consumer language.
 
@@ -67,9 +70,11 @@ The audience is professional and medically trained. Avoid oversimplified consume
 
 ### Mentoring
 
-Personal, case-related and workflow-related support for dentists and orthodontists.
+Personal clinical continuing education and case-related mentoring for dentists and orthodontists.
 
-Possible themes include clinical decision-making, aligner biomechanics, treatment-planning review, digital workflow optimisation, complex case discussion, structured feedback, and long-term development of the clinician's own planning competence.
+Possible themes include clinical case assessment, aligner biomechanics, treatment strategy, ClinCheck / setup review, complex cases, troubleshooting, refinement strategies, and development of the clinician's own clinical planning competence.
+
+Do not present mentoring as general workflow or practice-process consulting.
 
 A premium recurring mentoring offer is known as **The Elite Retainer**.
 
@@ -77,11 +82,17 @@ Do not publish pricing unless the user explicitly provides or approves the curre
 
 ### Treatment Planning Services
 
-Treatment-planning support for aligner cases.
+Individual, quality-focused treatment planning for aligner cases.
 
-The service should be positioned as professional clinical planning support rather than simple administrative outsourcing.
+Each case is assessed individually and classified as **Basic**, **Advanced**, or **Complex**, according to its complexity and the required analysis and planning effort. Do not invent fixed thresholds or prices for these categories.
 
-Possible value themes include structured case assessment, treatment objectives, staging logic, biomechanics, attachment strategy, IPR strategy, refinements, predictability, and efficient review of digital treatment setups.
+The aim is a carefully analysed, clinically coherent digital setup that is as predictable as clinically possible and aligned with the treating clinician's treatment goals. This is an aim, not a guarantee of treatment outcome.
+
+TPS is deliberately not a volume-driven or standardised planning service. Quality, individual analysis, and clinical thinking take precedence over case volume; the service is not merely ClinCheck editing or administrative outsourcing.
+
+Relevant planning factors may include treatment goals, staging, biomechanics, attachments, IPR, refinement strategy, critical assessment of the digital setup, and avoiding unnecessary additional aligner phases where clinically possible.
+
+Final clinical responsibility remains with the treating dentist or orthodontist.
 
 The business currently has experience with Invisalign workflows, but the long-term positioning should remain brand-independent.
 
@@ -89,13 +100,13 @@ Do not imply that ClearVision is officially endorsed by a manufacturer unless th
 
 ### In-Office Masterclass
 
-Practice-based training and implementation support for teams.
+Individually prepared clinical half-day or full-day training delivered directly in the practice for one or several treating dentists or orthodontists.
 
-This can include aligner workflow implementation, scanner workflow, team roles, IPR workflow, attachments, clinical organisation, digital processes, and practical onboarding.
+Content is prepared around the participants' requested topics, knowledge level, and clinical questions. Possible topics include complex aligner biomechanics, ClinCheck refinement / setup optimisation, biomechanical protocols, troubleshooting, case assessment, treatment planning, and complex patient cases.
 
-It is designed to help the full practice team implement workflows reliably in day-to-day practice.
+Where appropriate, hands-on training using real, challenging cases from the practice can be included.
 
-Do not present this as a generic lecture product. It is practical, tailored and implementation-oriented.
+Do not present this as team onboarding, training for assistants or prophylaxis staff, scanner onboarding, optimisation of internal practice processes, allocation of team roles, or general workflow consulting. It is tailored clinical education, not a generic lecture product.
 
 ## Brand independence
 
@@ -109,11 +120,11 @@ Do not claim an official partnership with ClearCorrect, Straumann, DSD, Invisali
 
 ## Differentiation
 
-The website should emphasise the combination of clinical understanding, deep familiarity with digital aligner workflows, treatment-planning competence, practical implementation, personalised mentoring, and direct professional exchange.
+The website should emphasise the combination of clinical thinking, biomechanics, deep knowledge of digital aligner planning, individual continuing education, personal clinical sparring, and quality-focused case planning.
 
-ClearVision is not primarily about selling software or producing generic training content.
+ClearVision does not sell software, standardised training programmes, or mere ClinCheck editing.
 
-The value lies in helping clinicians make better-informed, more structured decisions and translate digital planning into practical clinical workflows.
+The value lies in the clinical thinking behind digital planning and in helping treating clinicians assess cases, biomechanics, risks, and setups more critically and make increasingly independent planning decisions.
 
 ## Tone of voice
 
@@ -152,7 +163,9 @@ It should explain who each service is for, what problem it solves, how collabora
 
 ## About page goals
 
-The About page should explain Martin's professional background in digital dentistry and aligner workflows, his experience at the interface between clinical treatment planning and digital systems, why ClearVision Consulting was created, his working philosophy of precision, clarity, practicality and individual support, and the value of an independent perspective.
+The About page should communicate around two decades of dental-sector experience, technical support at Straumann, and clinical work at Align Technology as a Clinical Specialist. It should connect this background with aligner therapy, ClinCheck, biomechanics, clinical decision-making, digital planning, and development of treating clinicians' own planning competence.
+
+Explain why ClearVision Consulting was created, its principles of precision, clarity, clinical feasibility and individual support, and the value of a manufacturer-independent perspective. A restrained four-station section may illustrate this background without employer logos or invented dates.
 
 The page should feel credible and human, not like a long CV.
 
@@ -162,7 +175,7 @@ Avoid unsupported chronology or qualifications.
 
 The Contact page should feel low-friction and professional.
 
-It should explain that an initial conversation is used to understand the clinician or practice situation, current experience level, workflow challenges, service fit, and sensible next steps.
+It should explain that an initial conversation is used to understand the treating clinician's current experience level, clinical questions in aligner therapy, learning and treatment-planning needs, service fit, and sensible next steps.
 
 Do not promise instant availability.
 

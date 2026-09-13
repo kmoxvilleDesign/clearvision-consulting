@@ -176,3 +176,16 @@
     overflow-wrap: break-word;
   }
 }
+
+@media (max-width: 42em) {
+  .legal-intro__title--privacy {
+    min-width: 0;
+    font-size: clamp(
+      1.5rem,
+      calc((100vw - 2 * var(--page-padding)) / 11.7),
+      2.5rem
+    );
+    hyphens: none;
+    overflow-wrap: normal;
+  }
+}
