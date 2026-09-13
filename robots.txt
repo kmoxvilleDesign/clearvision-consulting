@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://clearvision-consulting.com/sitemap.xml
