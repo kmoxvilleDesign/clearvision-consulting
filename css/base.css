@@ -144,32 +144,52 @@ button {
     display: none !important;
   }
 
-  /* Innenabstände der Leiste reduzieren */
+  /* Gesamte Leiste deutlich flacher */
   #CybotCookiebotDialog.CybotEdge {
-    padding-block: 0.625rem !important;
+    padding: 0.5rem 1rem !important;
   }
 
+  /* Inhaltsbereich kompakter */
   #CybotCookiebotDialogBodyContent {
-    padding-block: 0.25rem !important;
+    padding-block: 0 !important;
   }
 
-  /* Text etwas kompakter, aber weiterhin gut lesbar */
   #CybotCookiebotDialogBodyContentTitle {
-    margin-bottom: 0.25rem !important;
-    font-size: 0.95rem !important;
-    line-height: 1.25 !important;
+    margin-bottom: 0.15rem !important;
+    font-size: 0.875rem !important;
+    line-height: 1.2 !important;
   }
 
   #CybotCookiebotDialogBodyContentText {
-    font-size: 0.82rem !important;
-    line-height: 1.4 !important;
+    font-size: 0.78rem !important;
+    line-height: 1.35 !important;
   }
 
-  /* Buttons deutlich flacher */
-  #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
-    min-height: 2.5rem !important;
-    padding: 0.5rem 1rem !important;
-    font-size: 0.82rem !important;
+  /* Link „Details anzeigen“ näher an den Haupttext ziehen */
+  #CybotCookiebotDialog.CybotEdge
+    #CybotCookiebotDialogBodyEdgeMoreDetails {
+    margin: 0.35rem 0 0 0 !important;
+  }
+
+  #CybotCookiebotDialogBodyEdgeMoreDetails a {
+    font-size: 0.78rem !important;
     line-height: 1.2 !important;
+  }
+
+  /* Rechte Buttons flacher und etwas schmaler */
+  #CybotCookiebotDialog.CybotEdge
+    #CybotCookiebotDialogFooter
+    .CybotCookiebotDialogBodyButton {
+    width: 15rem !important;
+    min-height: 2.25rem !important;
+    padding: 0.35rem 0.75rem !important;
+    font-size: 0.78rem !important;
+    line-height: 1.15 !important;
+  }
+
+  #CybotCookiebotDialog.CybotEdge
+    #CybotCookiebotDialogFooter
+    .CybotCookiebotDialogBodyButton:not(:first-of-type) {
+    margin-top: 0.25rem !important;
   }
 }
