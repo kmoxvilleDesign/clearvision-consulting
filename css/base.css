@@ -134,3 +134,9 @@ button {
     transition: none;
   }
 }
+
+@media (min-width: 48rem) {
+  div#CybotCookiebotDialog {
+    scale: 75%;
+  }
+}
