@@ -135,15 +135,14 @@ button {
   }
 }
 
+/* Cookiebot-eigenes Branding im Consent-Banner ausblenden */
+a#CybotCookiebotDialogPoweredbyCybot,
+div#CybotCookiebotDialogPoweredByText {
+  display: none !important;
+}
+
 /* Cookiebot – kompakte Desktop-Leiste */
 @media (min-width: 80rem) {
-  /* Cookiebot-eigenes Branding im Banner ausblenden */
-  #CybotCookiebotDialogPoweredbyCybot,
-  #CybotCookiebotDialogPoweredByText,
-  #CybotCookiebotDialogHeaderLogosWrapper {
-    display: none !important;
-  }
-
   /* Gesamte Leiste deutlich flacher */
   #CybotCookiebotDialog.CybotEdge {
     padding: 0.5rem 1rem !important;
