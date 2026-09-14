@@ -134,3 +134,42 @@ button {
     transition: none;
   }
 }
+
+/* Cookiebot – kompakte Desktop-Leiste */
+@media (min-width: 80rem) {
+  /* Cookiebot-eigenes Branding im Banner ausblenden */
+  #CybotCookiebotDialogPoweredbyCybot,
+  #CybotCookiebotDialogPoweredByText,
+  #CybotCookiebotDialogHeaderLogosWrapper {
+    display: none !important;
+  }
+
+  /* Innenabstände der Leiste reduzieren */
+  #CybotCookiebotDialog.CybotEdge {
+    padding-block: 0.625rem !important;
+  }
+
+  #CybotCookiebotDialogBodyContent {
+    padding-block: 0.25rem !important;
+  }
+
+  /* Text etwas kompakter, aber weiterhin gut lesbar */
+  #CybotCookiebotDialogBodyContentTitle {
+    margin-bottom: 0.25rem !important;
+    font-size: 0.95rem !important;
+    line-height: 1.25 !important;
+  }
+
+  #CybotCookiebotDialogBodyContentText {
+    font-size: 0.82rem !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Buttons deutlich flacher */
+  #CybotCookiebotDialogFooter .CybotCookiebotDialogBodyButton {
+    min-height: 2.5rem !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 0.82rem !important;
+    line-height: 1.2 !important;
+  }
+}
