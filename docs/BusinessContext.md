@@ -12,7 +12,9 @@ Do not treat this file as permission to invent additional claims.
 
 **Name:** ClearVision Consulting
 
-ClearVision Consulting is an independent clinical consulting and continuing education business focused on aligner therapy, clinical case assessment, aligner biomechanics, digital treatment planning, critical review of digital setups / ClinChecks, troubleshooting, complex cases, and the development of treating clinicians' own planning competence.
+ClearVision Consulting is an independent clinical continuing education and consulting business whose primary focus is clinical education and the development of clinical decision-making competence in aligner therapy.
+
+Relevant expertise includes clinical case assessment, aligner biomechanics, digital treatment planning, critical review of digital setups / ClinChecks, troubleshooting, and complex cases. These capabilities support the educational focus. Treatment Planning Services (TPS) remains an important standalone service, but is not the primary brand positioning.
 
 The business is based in Switzerland and is operated solely by Martin Kesel as a sole proprietor. Its primary audience is treating dentists and orthodontists.
 
@@ -38,9 +40,19 @@ Do not invent academic titles, specialist titles, certifications, publications, 
 
 ClearVision Consulting should not feel like a generic dental agency or software reseller.
 
-The positioning is:
+The primary positioning is:
 
-**Clinical thinking + aligner biomechanics + digital treatment-planning expertise + individual clinical education.**
+**Clinical continuing education and the development of clinical decision-making competence in aligner therapy.**
+
+The central approach is transfer rather than teaching theory in isolation:
+
+**Theory → clinical understanding → decision-making → application to a specific case.**
+
+Education may combine structured presentations / lectures, case discussions, clinical mentoring, and **Training on the Case**. Where useful and organisationally feasible, learning should be applied and deepened directly through real patient cases from the treating clinician's own practice.
+
+The aim is to help dentists and orthodontists at different experience levels understand clinical relationships better, make more informed and confident decisions, and implement treatment as purposefully and predictably as clinically possible. ClearVision should strengthen clinicians' own clinical competence and independence over the long term. These are educational and clinical aims, not guarantees of treatment outcomes or clinical success.
+
+Digital workflows, treatment planning, and practical implementation remain relevant competencies, subordinate to the clinical education and decision-making focus. TPS remains an important independent service alongside the educational offers, not the defining promise of the brand.
 
 The brand should communicate precision, clarity, structure, clinical understanding, independence, premium personal support, and practical relevance.
 
@@ -50,8 +62,8 @@ A central brand idea is:
 
 Related positioning language:
 
-- Digitale Zahnmedizin. Klinisch gedacht.
-- Präzision für digitale Workflows in der Zahnmedizin.
+- Klinische Alignertherapie. Praxisnah gedacht.
+- Wissen verstehen. Klinisch sicher entscheiden. Am echten Fall anwenden.
 
 Where existing brand language refers to digital workflows, the intended meaning is clinical aligner assessment and treatment planning, not general practice organisation or internal process consulting.
 
@@ -64,15 +76,19 @@ Primary audiences:
 3. Experienced aligner clinicians who want to deepen their knowledge of biomechanics, case assessment, and digital planning.
 4. Treating clinicians who want to develop their ability to assess and plan aligner cases independently.
 
-The audience is professional and medically trained. Avoid oversimplified consumer language.
+The audience includes dentists and orthodontists at different experience levels. Education should be adapted to their existing knowledge and clinical questions. The audience is professional and medically trained. Avoid oversimplified consumer language.
 
 ## Core services
 
+Clinical education is the primary focus of the service portfolio. Mentoring and In-Office Masterclass support the transfer from theory through clinical understanding and decision-making to application to a specific case. Structured presentations / lectures, case discussions, clinical mentoring, and Training on the Case can be combined according to the clinician's learning needs. TPS remains an important standalone planning service.
+
 ### Mentoring
 
-Personal clinical continuing education and case-related mentoring for dentists and orthodontists.
+Personal clinical continuing education and case-related mentoring for dentists and orthodontists at different experience levels, aimed at developing their own clinical understanding, decision-making competence, and long-term independence.
 
 Possible themes include clinical case assessment, aligner biomechanics, treatment strategy, ClinCheck / setup review, complex cases, troubleshooting, refinement strategies, and development of the clinician's own clinical planning competence.
+
+Theory is connected to clinical reasoning and case decisions through explanations, structured presentations / lectures, and case discussions as appropriate. Where useful and organisationally feasible, Training on the Case applies and deepens this learning through real patient cases from the treating clinician's practice.
 
 Do not present mentoring as general workflow or practice-process consulting.
 
@@ -82,7 +98,7 @@ Do not publish pricing unless the user explicitly provides or approves the curre
 
 ### Treatment Planning Services
 
-Individual, quality-focused treatment planning for aligner cases.
+Individual, quality-focused treatment planning for aligner cases. TPS is an important standalone service, but does not define ClearVision's primary brand positioning, which centres on clinical education and decision-making competence.
 
 Each case is assessed individually and classified as **Basic**, **Advanced**, or **Complex**, according to its complexity and the required analysis and planning effort. Do not invent fixed thresholds or prices for these categories.
 
@@ -104,7 +120,7 @@ Individually prepared clinical half-day or full-day training delivered directly 
 
 Content is prepared around the participants' requested topics, knowledge level, and clinical questions. Possible topics include complex aligner biomechanics, ClinCheck refinement / setup optimisation, biomechanical protocols, troubleshooting, case assessment, treatment planning, and complex patient cases.
 
-Where appropriate, hands-on training using real, challenging cases from the practice can be included.
+Structured presentations / lectures and case discussions connect theory to clinical understanding and decision-making. Where useful and organisationally feasible, Training on the Case applies and deepens learning directly through real patient cases from the participants' practice. The aim is to strengthen their own clinical competence and independent application in treatment.
 
 Do not present this as team onboarding, training for assistants or prophylaxis staff, scanner onboarding, optimisation of internal practice processes, allocation of team roles, or general workflow consulting. It is tailored clinical education, not a generic lecture product.
 
@@ -120,11 +136,13 @@ Do not claim an official partnership with ClearCorrect, Straumann, DSD, Invisali
 
 ## Differentiation
 
-The website should emphasise the combination of clinical thinking, biomechanics, deep knowledge of digital aligner planning, individual continuing education, personal clinical sparring, and quality-focused case planning.
+The website should lead with individual clinical education that connects theory, clinical understanding, decision-making, and application to a specific aligner case. Clinical thinking, biomechanics, deep knowledge of digital aligner planning, and personal clinical sparring support this transfer.
 
 ClearVision does not sell software, standardised training programmes, or mere ClinCheck editing.
 
-The value lies in the clinical thinking behind digital planning and in helping treating clinicians assess cases, biomechanics, risks, and setups more critically and make increasingly independent planning decisions.
+The value lies in helping treating clinicians understand clinical relationships, assess cases, biomechanics, risks, and setups critically, and make increasingly informed and independent clinical decisions. Where useful and organisationally feasible, applying learning to the clinician's own real patient cases makes this transfer concrete. The long-term aim is stronger clinical competence and independence, with more purposeful and clinically predictable treatment implementation; no clinical success or treatment outcome is guaranteed.
+
+Quality-focused case planning through TPS complements this educational focus as an independent service.
 
 ## Tone of voice
 
@@ -151,15 +169,23 @@ Avoid "Termin vereinbaren" unless an actual booking flow exists.
 
 ## Homepage content direction
 
-The homepage should quickly communicate what ClearVision is, who it supports, what the three core service areas are, why the founder's clinical/digital background is relevant, and how to start a conversation.
+The homepage should first communicate ClearVision's primary focus: clinical continuing education and the development of clinical decision-making competence in aligner therapy for dentists and orthodontists at different experience levels.
+
+The hero should emphasise understanding knowledge, making informed and confident clinical decisions, and applying learning to real cases. Supporting copy should connect structured presentations / lectures and case discussions with clinical mentoring and Training on the Case. Application to the clinician's own real patient cases is offered where useful and organisationally feasible, not promised for every format or engagement.
+
+The homepage should also orient visitors to the three core services, explain why the founder's clinical/digital background is relevant, and show how to start a conversation. Mentoring and In-Office Masterclass express the educational focus; TPS should remain visible as an important independent service without becoming the primary brand message. Digital workflows and treatment planning support the clinical education and decision-making focus.
 
 The homepage should not attempt to explain every detail. Detailed service information belongs on the Services page.
 
 ## Services page goals
 
-The Services page should clearly distinguish Mentoring, Treatment Planning Services, and In-Office Masterclass.
+The Services page should clearly distinguish Mentoring, Treatment Planning Services, and In-Office Masterclass, while leading with clinical education and the development of independent clinical decision-making competence.
 
-It should explain who each service is for, what problem it solves, how collaboration works, and what makes each offer distinct.
+It should explain who each service is for, which learning or clinical planning needs it addresses, how collaboration works, and what makes each offer distinct. For educational offers, show how content is adapted to different experience levels and how theory transfers to clinical understanding, decisions, and application through structured presentations / lectures, case discussions, mentoring, and Training on the Case.
+
+Explain that learning can be applied and deepened through real patient cases from the clinician's practice where useful and organisationally feasible. Frame stronger clinical competence, independence, more informed decisions, and purposeful, clinically predictable implementation as aims, never guaranteed outcomes or clinical success.
+
+Present TPS as an important standalone planning service alongside the educational offers. Digital workflows, treatment planning, and practical implementation should support the clinical focus rather than displace it.
 
 ## About page goals
 

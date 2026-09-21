@@ -63,7 +63,7 @@
   color: var(--color-text);
 
   font-size: clamp(
-    3rem,
+    2.125rem,
     calc(2rem + 2.6vw),
     4.5rem
   );
